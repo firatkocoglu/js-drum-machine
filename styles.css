@@ -1,0 +1,52 @@
+body {
+  font-family: 'Days One';
+  position: relative;
+  font-weight: 500;
+  background-color: gainsboro;
+}
+
+#drum-machine {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%) translateX(50%);
+  padding: 40px;
+  width: 50%;
+  height: fit-content;
+  border: 10px solid rebeccapurple;
+  background-color: lightpink;
+  box-shadow: 5px 3px 3px black;
+}
+
+.drum-pad {
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: gainsboro;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5%;
+  box-shadow: 5px 3px 3px black;
+}
+
+.row {
+  margin-bottom: 0.5rem;
+}
+
+#control {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+#display {
+  text-align: center;
+  width: 100%;
+  height: 40%;
+  border: 3px solid black;
+  background-color: gainsboro;
+  padding: 1rem;
+  box-shadow: 5px 3px 3px black;
+}

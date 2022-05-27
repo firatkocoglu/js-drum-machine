@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Drum Machine</title>
+</head>
+
+<body>
+  <main>
+    <div id="drum-machine">
+      <div id="drum-pads">
+        <div class="row">
+          <div id="hats-metal" class="drum-pad col-4">
+            Q
+            <audio src="audio/hats-metal.wav" id="Q" class="clip">
+              Hats Metal
+            </audio>
+          </div>
+          <div id="hats-salty" class="drum-pad col-4">
+            W
+            <audio src="audio/hats-salty.wav" id="W" class="clip">
+              Hats Salty
+            </audio>
+          </div>
+          <div id="hats-zippo" class="drum-pad col-4">
+            E
+            <audio src="audio/hats-zippo.wav" id="E" class="clip">
+              Hats Zippo
+            </audio>
+          </div>
+        </div>
+        <div class="row">
+          <div id="kick-gm" class="drum-pad col-4">
+            A
+            <audio src="audio/kick-gm.wav" id="A" class="clip">Kick GM</audio>
+          </div>
+          <div id="kick-mecha" class="drum-pad col-4">
+            S
+            <audio src="audio/kick-mecha.wav" id="S" class="clip">
+              Kick Mecha
+            </audio>
+          </div>
+          <div id="clap-liquid" class="drum-pad col-4">
+            D
+            <audio src="audio/clap-liquid.wav" id="D" class="clip">
+              Clap Liquid
+            </audio>
+          </div>
+        </div>
+        <div class="row">
+          <div id="snare-double" class="drum-pad col-4">
+            Z
+            <audio src="audio/snare-double.wav" id="Z" class="clip">
+              Snare Double
+            </audio>
+          </div>
+          <div id="snare-hype" class="drum-pad col-4">
+            X
+            <audio src="audio/snare-hype.wav" id="X" class="clip">
+              Snare Hype
+            </audio>
+          </div>
+          <div id="snare-ussr" class="drum-pad col-4">
+            C
+            <audio src="audio/snare-ussr.wav" id="C" class="clip">
+              Snare USSR
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div id="control">
+        <p id="display">Display</p>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
